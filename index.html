@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title> Brad Hill Photography</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="nav_bar">
+            <div class="logo">
+                    <blockquote>
+                        
+                    </blockquote>
+                <p class="logo_text"> BRAD HILL</p>        
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a id="home">HOME</a></li>
+                    <li><a id="portfolio">PORTFOLIO</a></li>
+                    <li><a id="about">ABOUT</a></li>
+                    <li><a id="contact" >CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="slideshow">
+            <img class="inactive active" src="images/1.jpg">
+            <div class="buttons">
+               
+                <p id="right_arrow">&rsaquo;</p>
+                <p id="left_arrow">&lsaquo;</p>
+                <span id="current_count">
+                </span>
+                <span id="divider">/</span>
+                <span id="total_count"></span>
+            </div>
+            <div class="portfolio_options">
+                <ul>
+                    <li id="wedding">Wedding</li>
+                    <li id="commercial">Commercial</li>
+                    <li id="editorial">Editorial</li>
+                </ul>  
+            </div>
+            <div class="about_section">
+                <h3>About</h3>
+                <br>
+                <h3 id="about_close">x</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus laboriosam dolore reiciendis, rerum quam quia, quidem illum ullam facilis maiores pariatur, tempore laudantium eos sapiente fugiat repellendus. Distinctio omnis iure tempore excepturi aliquid, minima dolore earum harum autem quaerat aperiam voluptatibus, dolorem laborum facere, error repellendus. Iusto voluptates provident maxime.
+            </div>
+            <div class="contact_section">
+                <h3>Contact</h3>
+                <br>
+                <h3 id="contact_close">x</h3>
+                <form action="">
+                   <div>
+                    <p id="event">Get in touch</p>
+                    <label id="radio"><input type="radio" name="event" value="Wedding">Wedding</label>
+                    <label id="radio"><input type="radio" name="event" value="editorial">Editorial</label>
+                    <label id="radio"><input type="radio" name="event" value="commercial">Commercial</label>
+                    </div>
+                
+                   <div class="text_fields">
+                       <label for="name">Your Name :</label>
+                       <input type="text" name="name" maxlength=50>
+                        <br>
+                       <label for="phone">Your Contact :</label>
+                       <input type="text" name="phone" maxlength="15">
+                        <br>
+                       <label for="email">Your Email :</label>
+                       <input type="text" name="email" maxlength="20">
+                  <br>
+                       <label for="date">Event Date :</label>
+                       <input type="text" name="date" maxlength="15" placeholder="day-month-year">
+            <br>
+                       <label for="location">Event Location :</label>
+                       <input type="text" name="location" maxlength="100">
+                <br>
+                       <label for="reference">Where did you hear about me ?</label>
+                       <input type="text" name="reference" maxlength="50">
+                     <br>
+                       <label for="query">Query :</label>
+                       <textarea name="query" ></textarea>
+                       <br>
+                       <p id="send">Send</p>
+                   </div>
+                    
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <ul>
+                <li>PHONE : (020) 567-5678</li>
+                <li>FAX : (020) 567-9087</li>
+                <li>EMAIL : contact@bradhill.com</li>
+            </ul>
+            <p id="copyright">&copy; Reserved Brad Hill 2015</p>
+        </footer>
+        
+        <script type="text/javascript" src="/home/meghansh/Desktop/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="javascript/script.js"></script>   
+    </body>
+</html>
